@@ -167,7 +167,8 @@ $recent_questions = $conn->query("SELECT q.*, s.name as subject_name
                     style="color: var(--sidebar-text); font-size: 0.7rem; text-transform: uppercase; font-weight: 700; margin-bottom: 4px;">
                     Current Dept</p>
                 <p style="color: white; font-weight: 600; font-size: 0.85rem;">
-                    <?php echo $_SESSION['admin_dept_name']; ?></p>
+                    <?php echo $_SESSION['admin_dept_name']; ?>
+                </p>
                 <a href="select_department.php"
                     style="color: var(--primary); font-size: 0.75rem; text-decoration: none; font-weight: 600; display: block; margin-top: 8px;">
                     <i class="fas fa-exchange-alt"></i> Switch Department
@@ -271,7 +272,7 @@ $recent_questions = $conn->query("SELECT q.*, s.name as subject_name
                                     <option value="1">Option 1</option>
                                     <option value="2">Option 2</option>
                                     <option value="3">Option 3</option>
-                                    <option value="4">Option 4</option>
+
                                 </select>
                             </div>
 
